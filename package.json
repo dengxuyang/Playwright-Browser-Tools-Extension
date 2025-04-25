@@ -1,0 +1,12 @@
+{
+  "name": "browser-launcher",
+  "version": "1.0.0",
+  "description": "Launch browser with extension",
+  "main": "launch-browser.js",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "scripts": {
+    "start": "node launch-browser.js"
+  }
+}
