@@ -1,3 +1,11 @@
+<!--
+ * @Author: dengxuyang
+ * @Date: 2025-04-25 10:02:36
+ * @LastEditors: 673303066@qq.com
+ * @LastEditTime: 2025-04-29 14:41:30
+ * @FilePath: /Playwright Browser Tools Extension/README.md
+ * @Description: 
+-->
 # Playwright Browser Tools Extension
 
 一个集成了browser-tools插件的Playwright自动化测试工具，用于辅助代码编写和调试。
@@ -45,10 +53,10 @@ name: browser-tools
 # 配置命令
 Command: npx @agentdeskai/browser-tools-mcp@1.2.0
 
-# 启动browser-tools服务
+# 启动browser-tools服务 
 npx @agentdeskai/browser-tools-server@1.2.0
 ```
-
+> 注意：在运行项目时已经启动了browser-tools服务 无需再次执行 
 ### 配置playwright
 
 [配置详情](https://mcp.so/server/playwright-mcp/microsoft?tab=content)

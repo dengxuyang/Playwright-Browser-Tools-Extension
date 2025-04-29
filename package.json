@@ -4,9 +4,13 @@
   "description": "Launch browser with extension",
   "main": "launch-browser.js",
   "dependencies": {
-    "playwright": "^1.40.0"
+    "playwright": "^1.40.0",
+    "concurrently": "^8.0.0",
+    "@agentdeskai/browser-tools-server": "^1.2.0"
   },
   "scripts": {
-    "start": "node launch-browser.js"
+    "start:browser": "node launch-browser.js",
+    "start:tools": "npx @agentdeskai/browser-tools-server@1.2.0",
+    "start": "npm run start:browser && npm run start:tools"
   }
 }
