@@ -2,7 +2,7 @@
  * @Author: dengxuyang
  * @Date: 2025-04-25 10:02:36
  * @LastEditors: 673303066@qq.com
- * @LastEditTime: 2025-04-29 14:41:30
+ * @LastEditTime: 2025-05-06 15:49:07
  * @FilePath: /Playwright Browser Tools Extension/README.md
  * @Description: 
 -->
@@ -74,6 +74,7 @@ Command: npx @playwright/mcp@latest --cdp-endpoint http://localhost:9222
 1. 使用browser-tools进行浏览器操作监控
 2. 使用playwright进行自动化测试
 3. 配合AI编辑器实现代码自动化编写和bug修复
+4. 可以使用npm link 全局使用 browser-launcher 命令启动浏览器和工具服务
 
 ## 作者
 

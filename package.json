@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Launch browser with extension",
   "main": "launch-browser.js",
+  "bin": {
+    "browser-launcher": "./bin/browser-launcher.js"
+  },
   "dependencies": {
-    "playwright": "^1.40.0",
+    "@agentdeskai/browser-tools-server": "^1.2.0",
     "concurrently": "^8.0.0",
-    "@agentdeskai/browser-tools-server": "^1.2.0"
+    "playwright": "^1.52.0"
   },
   "scripts": {
     "start:browser": "node launch-browser.js",
