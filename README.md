@@ -2,7 +2,7 @@
  * @Author: dengxuyang
  * @Date: 2025-04-25 10:02:36
  * @LastEditors: 673303066@qq.com
- * @LastEditTime: 2025-05-06 15:49:07
+ * @LastEditTime: 2025-05-15 16:53:52
  * @FilePath: /Playwright Browser Tools Extension/README.md
  * @Description: 
 -->
@@ -75,7 +75,8 @@ Command: npx @playwright/mcp@latest --cdp-endpoint http://localhost:9222
 2. 使用playwright进行自动化测试
 3. 配合AI编辑器实现代码自动化编写和bug修复
 4. 可以使用npm link 全局使用 browser-launcher 命令启动浏览器和工具服务
-
+5. 现使用npm start 直接就会启动浏览器和工具服务
+6. 添加交互方式启动，输入目标网址，就可以直接调试了
 ## 作者
 
 - 作者：dengxuyang
